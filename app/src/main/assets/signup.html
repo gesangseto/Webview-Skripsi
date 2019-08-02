@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>Signup - Sahabatech</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+	<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+	<link href="css/bootstrap-responsive.min.css" rel="stylesheet" type="text/css" />
+
+	<link href="css/font-awesome.css" rel="stylesheet">
+	<link href="http://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,400,600" rel="stylesheet">
+
+	<link href="css/style.css" rel="stylesheet" type="text/css">
+	<link href="css/pages/signin.css" rel="stylesheet" type="text/css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/sweetalert2@8"></script>
+</head>
+
+<body>
+
+	<div class="navbar" style=" position: fixed;right:0;top:0;left:0;z-index:1050;">
+
+		<div class="navbar-inner">
+
+			<div class="container">
+
+
+				<a class="brand" href="#">
+					Sahabatech
+				</a>
+
+			</div> <!-- /container -->
+
+		</div> <!-- /navbar-inner -->
+
+	</div> <!-- /navbar -->
+
+
+	<div class="">
+
+		<div class="">
+
+			<br>
+
+
+
+		</div> <!-- /content -->
+
+	</div> <!-- /account-container -->
+
+
+
+
+	<div class="account-container register">
+
+		<div class="content clearfix">
+
+			<form action="#" method="">
+
+				<h1>Signup</h1>
+
+				<div class="login-fields">
+
+					<p>Create your free account:</p>
+
+					<div class="field">
+						Username:
+						<input type="text" id="firstname" name="username" value="" placeholder="" class="login" />
+					</div> <!-- /field -->
+					<div class="field">
+						Password:
+						<input type="password" id="password" name="password" value="" placeholder="" class="login" />
+					</div> <!-- /field -->
+
+					<div class="field">
+						Confirm Password:
+						<input type="password" id="confirm_password" name="confirm_password" value="" placeholder=" "
+							class="login" />
+					</div> <!-- /field -->
+					<div class="field">
+						Full Name:
+						<input type="text" id="lastname" name="fullname" value="" placeholder=" " class="login" />
+					</div> <!-- /field -->
+
+
+					<div class="field">
+						Email:
+						<input type="text" id="email" name="email" value="" placeholder="" class="login" />
+					</div> <!-- /field -->
+					<div class="field">
+						Phone:
+						<input type="text" id="email" name="no_telp" value="" placeholder="" class="login" />
+					</div> <!-- /field -->
+					<div class="field">
+						Address:
+						<textarea type="text" id="email" name="alamat" value="" placeholder="" class="login" rows="5"
+							cols="50" name="alamat"></textarea>
+					</div> <!-- /field -->
+
+
+
+				</div> <!-- /login-fields -->
+
+				<div class="login-actions">
+
+
+					<button class="button btn btn-primary btn-large" onclick="New();">Register</button>
+
+				</div> <!-- .actions -->
+
+			</form>
+
+		</div> <!-- /content -->
+
+	</div> <!-- /account-container -->
+
+
+	<!-- Text Under Box -->
+	<div class="login-extra">
+		Already have an account? <a href="Login.html">Login to your account</a>
+	</div> <!-- /login-extra -->
+
+
+	<script src="js/jquery-1.7.2.min.js"></script>
+	<script src="js/bootstrap.js"></script>
+	<script>
+		function New() {
+			Swal.fire(
+				'Server error?',
+				'Please restart app',
+				'question'
+			)
+		}
+	</script>
+
+</body>
+
+</html>
